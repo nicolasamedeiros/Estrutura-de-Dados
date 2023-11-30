@@ -86,7 +86,7 @@ double evaluateExpression(char expression[]) {
 }
 
 int main() {
-    char expression[] = "8 5 2 4 + * +";
+    char expression[] = "45 60 + 30 c *";
     double result = evaluateExpression(expression);
 
     printf("Resultado: %lf\n", result);
